@@ -1,3 +1,5 @@
+dist: trusty
+
 # AFAICT, switching to a container-based build would require hard-coding
 # the current kernel version in the linux-headers-* package name.  Bleh.
 sudo: required
